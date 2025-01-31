@@ -1,0 +1,13 @@
+``` bash
+# Build Dockerfile to Image
+docker build -t custom-newman .
+
+
+# List Docker images
+docker images
+
+# Run Docker Image to be Container and extecutable shell
+docker run --rm -it custom-newman sh
+cat /etc/resolv.conf
+
+```
